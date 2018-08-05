@@ -1,4 +1,4 @@
-package com.shotacon.flux.config;
+package com.shotacon.amazing.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -35,7 +35,7 @@ public class HttpServerConfig {
      */
     public HttpServer httpServer(RouterFunction<?> routerFunction) {
 
-        HttpServer httpServer = HttpServer.create("111.192.158.189", Integer.valueOf(environment.getProperty("port")));
+        HttpServer httpServer = HttpServer.create(environment.getProperty("port"), Integer.valueOf(environment.getProperty("port")));
         httpServer.newHandler(new ReactorHttpHandlerAdapter(RouterFunctions.toHttpHandler(routerFunction)));
         return httpServer;
 

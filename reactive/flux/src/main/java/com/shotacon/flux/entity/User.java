@@ -1,4 +1,4 @@
-package com.shotacon.flux.model;
+package com.shotacon.flux.entity;
 
 public class User {
 

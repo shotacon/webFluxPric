@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
-import com.shotacon.flux.model.User;
+import com.shotacon.flux.entity.User;
 import com.shotacon.flux.respository.UserRespository;
 
 import reactor.core.publisher.Flux;

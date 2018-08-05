@@ -1,5 +1,6 @@
 server:
-  port: 9000
+  ip: 111.192.158.189
+  port: 80
 logging:
   config: classpath:logback.xml
 spring:

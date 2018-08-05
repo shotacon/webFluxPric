@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
-import com.shotacon.flux.model.User;
+import com.shotacon.flux.entity.User;
 
 @Repository
 public interface UserRespository {
