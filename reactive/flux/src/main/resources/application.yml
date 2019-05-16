@@ -5,7 +5,7 @@ logging:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://47.95.245.9:3306/dev_webapp?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://47.95.117.48:3306/movie?useUnicode=true&characterEncoding=utf8
     username: root
     password: '!QAZ2wsx'
     max-idle: 10
